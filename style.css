@@ -9,10 +9,7 @@
 *, ::after, ::before{
     box-sizing:content-box!important;
 }
-*{
-    font-size: large;
-    
-}
+
 
 .bg-top{
     height: 98vh;
