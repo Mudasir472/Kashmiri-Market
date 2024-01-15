@@ -4,9 +4,9 @@ butForAddP = document.querySelectorAll('.butForAdd p');
 calProducrP = document.querySelector('.calProduct p');
 cartEmpty = document.querySelector('.cartEmpty');
 
-var boxx=document.querySelector('.boxx');
-var bodyTr=document.querySelectorAll('tbody tr'); 
-var bodyTrB=document.querySelectorAll('tbody tr b'); 
+// var boxx=document.querySelector('.boxx');
+// var bodyTr=document.querySelectorAll('tbody tr'); 
+// var bodyTrB=document.querySelectorAll('tbody tr b'); 
 
 
 // toggle inside starts
@@ -36,9 +36,9 @@ var m = 0;
 var n = 1
 addCartButns.forEach(function (ele, index) {
     addCartButns[index].addEventListener("click", () => {
-        boxx.style.display="block";
-        bodyTr[0].style.display="flex";
-        bodyTrB[index].innerHTML="1";
+        // boxx.style.display="block";
+        // bodyTr[0].style.display="flex";
+        // bodyTrB[index].innerHTML="1";
         cartEmpty.style.display = "none";
         butForAddP[index].innerHTML = "1";
         addCartButns[index].style.display = "none";

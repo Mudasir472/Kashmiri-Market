@@ -39,8 +39,3 @@ var x = setInterval(function() {
 
 
 // ----------------for view cart----------------------
-var boxx=document.querySelector('.boxx');
-var bodyTr=document.querySelectorAll('tbody tr'); 
-bodyTr.forEach(function(ele,index){
-  
-});
