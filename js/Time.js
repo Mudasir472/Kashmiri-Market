@@ -2,13 +2,14 @@
 
 var timeContainer=document.querySelectorAll('.con p');
 
-var countDownDate = new Date("Jan 5, 2025 15:37:25").getTime();
+var countDownDate = new Date("may 5, 2025 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
 
   // Get today's date and time
   var now = new Date().getTime();
+  console.log(now);
     
   // Find the distance between now and the count down date
   var distance = countDownDate - now;
