@@ -307,14 +307,29 @@ Filter.forEach(function(ele,index){
 });
 
 // for login
+var aboutPagesbut=document.querySelector('.aboutPages');
+var aboutPage=document.querySelector('.aboutPage');
+
 var loginBut=document.querySelector('.loginBut');
 var mainBody=document.querySelector('main');
 
 loginBut.addEventListener("click", ()=>{
 mainBody.style.display="none";
+aboutPage.style.display="none";
+
 var login=document.querySelector('.login').style.display="flex";
 });
 
 // for login
+
+//for about
+
+
+aboutPagesbut.addEventListener("click",()=>{
+    mainBody.style.display="none";
+    var login=document.querySelector('.login').style.display="none";
+    aboutPage.style.display="block";
+})
+//for about
 
 
